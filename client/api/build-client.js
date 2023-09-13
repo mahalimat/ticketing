@@ -5,7 +5,7 @@ export default ({ req }) => {
     // We are on the server
 
     return axios.create({
-      baseURL: 'http://www.mynet-ticketing-app.store',
+      baseURL: 'http://www.mynet-ticketing-app.store/',
       headers: req.headers,
     });
   } else {
